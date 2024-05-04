@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HEADING*/
+.heading{
+    text-align: center; 
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+/*ABOUT US*/
+section .about-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: orange;
+}
+
+section .about-us img{
+    height: 270px;
+}
+
+section .about-us .text{
+    margin-right: 70px;
+}
+
+section .about-us .text p:first-child{
+    padding-bottom: 25px;
+}
+
+/*MISSION STATEMENT*/
+.mission-statement{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/*VALUES*/
+.values{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+
+.values .block{
+    margin: 30px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width: 20%;
+}
+
+.values .block h2{
+    font-size: 35px;
+}
+
+.values .block:last-child{
+    width: 23%;
+}

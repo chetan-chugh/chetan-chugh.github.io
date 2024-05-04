@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.block{
+    display: flex;
+    padding: 30px 70px;
+}
+
+.block:nth-child(odd){
+    background-color: orange;
+}
+
+.image img{
+    height: 400px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    padding: 0 30px;
+}
+
+.text:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+.text:nth-child(odd) h2{
+    color: orange;
+}
